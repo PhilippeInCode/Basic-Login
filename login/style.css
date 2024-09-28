@@ -1,0 +1,34 @@
+/* Fondo de la página */
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #e4e5f7; 
+}
+
+/* Contenedor */
+.contenedor {
+    width: 400px;
+    height: 500px;
+    background-color: white; 
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Subtítulo */
+.subtitle {
+    font-weight: bold;
+}
+
+/* Eliminar subrayado del enlace */
+.subtitle a {
+    text-decoration: none;
+}
